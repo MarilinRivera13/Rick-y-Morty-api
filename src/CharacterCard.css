@@ -1,0 +1,36 @@
+.character-card {
+    border: 1px solid #D7BDE2;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .character-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .character-card h2 {
+    margin-bottom: 5px;
+    color: #000000; /* Cambiar el color del nombre del personaje */
+  }
+  
+  .status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .alive {
+    background-color: #0deb2a; /* Cambiar el color del indicador de estado "vivo" */
+  }
+  
+  .dead {
+    background-color: #f80202; /* Cambiar el color del indicador de estado "muerto" */
+  }
+  

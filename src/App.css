@@ -1,0 +1,10 @@
+.app {
+  text-align: center;
+  margin-top: 20px;
+  color: #00464b; /* Cambiar el color del texto principal */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #b300ff; /* Cambiar el color del título */
+}
